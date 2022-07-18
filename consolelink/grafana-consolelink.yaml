@@ -4,8 +4,10 @@ metadata:
   name: grafana-link
 spec:
   applicationMenu:
+    imageURL: https://github.com/client-engineering-kr/multi-tenancy-gitops-infra/blob/master/consolelink/grafana_logo.png?raw=true
     section: Observability
   href: >-
     https://cp-console.itzroks-6620022xah-xygpqn-4b4a324f027aea19c5cbc0c3275c4656-0000.us-south.containers.appdomain.cloud/grafana/?orgId=1
   location: ApplicationMenu
   text: Grafana Monitoring
+  
