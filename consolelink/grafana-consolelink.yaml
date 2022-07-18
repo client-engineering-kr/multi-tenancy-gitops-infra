@@ -1,0 +1,11 @@
+apiVersion: console.openshift.io/v1
+kind: ConsoleLink
+metadata:
+  name: kibana-public-url
+spec:
+  applicationMenu:
+    section: Observability
+  href: >-
+    https://cp-console.itzroks-6620022xah-xygpqn-4b4a324f027aea19c5cbc0c3275c4656-0000.us-south.containers.appdomain.cloud/grafana/?orgId=1
+  location: ApplicationMenu
+  text: Grafana Monitoring
