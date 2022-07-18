@@ -1,0 +1,13 @@
+apiVersion: console.openshift.io/v1
+kind: ConsoleLink
+metadata:
+  name: ibm-dashboard-link
+spec:
+  applicationMenu:
+    imageURL: https://github.com/client-engineering-kr/multi-tenancy-gitops-infra/blob/master/consolelink/ibm-dash.jpeg?raw=true
+    section: Observability
+  href: >-
+    https://cpd-tools.itzroks-6620022xah-xygpqn-4b4a324f027aea19c5cbc0c3275c4656-0000.us-south.containers.appdomain.cloud/integration/tracing/tools/cp4i-od-dev/op/#tracingOverview:-productView:tracing
+  location: ApplicationMenu
+  text: IBM Operations Dashboard
+  
